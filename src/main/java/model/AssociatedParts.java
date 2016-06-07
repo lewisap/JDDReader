@@ -3,7 +3,7 @@ package model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class AssociatedParts {
-	@JsonProperty("Part Number")
+	@JsonProperty("Part_Number")
 	private String partNumber;
 	
 	@JsonProperty("FSC")
@@ -18,13 +18,13 @@ public class AssociatedParts {
 	@JsonProperty("HMC")
 	private String hmc;
 	
-	@JsonProperty("Serial Number")
+	@JsonProperty("Serial_Number")
 	private String serialNumber;
 	
 	@JsonProperty("Op-Time")
 	private String opTime;
 	
-	@JsonProperty("350-Tag Number")
+	@JsonProperty("350-Tag_Number")
 	private String tagNumber;
 	
 	@JsonProperty("QTY")

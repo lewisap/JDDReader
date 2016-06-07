@@ -15,16 +15,16 @@ public class EventRecord {
 	@JsonProperty("Site")
 	private String site;
 	
-	@JsonProperty("Event ID")
+	@JsonProperty("Event_ID")
 	private String eventId;
 	
-	@JsonProperty("Event Type")
+	@JsonProperty("Event_Type")
 	private String eventType;
 	
-	@JsonProperty("Event Details")
+	@JsonProperty("Event_Details")
 	private List<EventDetails> eventDetails;
 	
-	@JsonProperty("Associated Parts")
+	@JsonProperty("Associated_Parts")
 	private List<AssociatedParts> associatedParts;
 	
 	public String getSite() {

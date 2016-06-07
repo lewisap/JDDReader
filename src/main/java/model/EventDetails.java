@@ -12,7 +12,7 @@ public class EventDetails {
 	@JsonProperty("WUC")
 	private String wuc;
 	
-	@JsonProperty("Event Narrative")
+	@JsonProperty("Event_Narrative")
 	private String eventNarrative;
 	
 	@JsonProperty("TMC")
@@ -30,16 +30,16 @@ public class EventDetails {
 	@JsonProperty("Units")
 	private String units;
 	
-	@JsonProperty("Start Date")
+	@JsonProperty("Start_Date")
 	private String startDate;
 	
-	@JsonProperty("Stop Date")
+	@JsonProperty("Stop_Date")
 	private String stopDate;
 	
 	@JsonProperty("User")
 	private String user;
 	
-	@JsonProperty("Corrective Action")
+	@JsonProperty("Corrective_Action")
 	private String correctiveAction;
 	
 	public String getDiscrepancy() {
